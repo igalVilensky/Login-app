@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-wrapper {
+  margin: auto;
+  position: relative;
+  top: 20vh;
+  border: 2px dotted red;
+  width: 50vw;
+  height: 50vh;
+}
+.left {
+  float: left;
+  margin-top: 2%;
+  margin-left: 3%;
+  width: 19vw;
+  height: 90%;
+  border: 2px dotted rgb(72, 255, 0);
+}
+.right {
+  float: left;
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 23vw;
+  height: 90%;
+  border: 2px dotted rgb(4, 0, 255);
+}
