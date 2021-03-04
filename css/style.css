@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* .main-global {
+  display: flex;
+  justify-content: center;
+  border: 2px dotted orange;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+} */
 .main-wrapper {
   height: 55vh;
   margin-top: 20vh;
@@ -12,5 +20,20 @@
   border: 1px dotted red;
   display: flex;
   align-items: center;
+}
+.left,
+.right,
+.bottom {
+  border: 1px dotted black;
+}
+.bottom {
+  width: auto;
+  height: 5vh;
+  text-align: center;
+  margin-left: 56.8vh;
+  margin-right: 56.8vh;
+  margin-top: -12vh;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
