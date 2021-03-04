@@ -81,7 +81,7 @@ input {
   background-color: rgb(0, 162, 255);
   border: none;
   color: white;
-  border-radius: 10%;
+  border-radius: 3%;
   font-size: 25px;
   cursor: pointer;
   position: relative;
@@ -102,15 +102,19 @@ input {
   position: relative;
   /* right: 5vw; */
   top: 2.5vh;
-
+  
   height: 12%;
+}
+#header-right h1 {
+  position: relative;
+  right: 3vw;
 }
 .bottom {
   border-top: 1px solid rgb(201, 201, 201);
   background-color: #f2f9ff;
   position: absolute;
   top: 89%;
-  width: 100%;
+  width: 100%;h
   height: 11%;
 }
 .bottom-text {
@@ -201,7 +205,9 @@ i {
   left: 2vw;
   text-align: center;
 }
+h1{
 
+}
 p {
   width: 100%;
   line-height: 200%;
