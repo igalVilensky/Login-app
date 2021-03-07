@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  border: 2px dotted red;
+}
+
+.main-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-content {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+.main-left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#facebook-login {
+  height: 9vh;
+  margin-left: 7vw;
+  margin-right: 4vw;
+}
+#google-login {
+  height: 9vh;
+  margin-left: 7vw;
+  margin-right: 4vw;
+}
+#twitter-login {
+  height: 9vh;
+  margin-left: 7vw;
+  margin-right: 4vw;
+}
+.main-right {
+  flex-grow: 2;
+  height: auto;
+}
+.bottom {
+  width: 50vw;
+  height: 5vh;
+}
