@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  border: 2px dotted orange;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  border: 2px dotted red;
+  height: 100vh;
+  gap: calc(2rem + 5%);
+  grid-template-areas:
+    "top-space top-space top-space top-space"
+    "main-top main-top main-top main-top"
+    "footer footer footer footer"
+    "bottom-space bottom-space bottom-space bottom-space";
+}
+.top-space {
+  grid-area: top-space;
+}
+.main-top {
+  grid-area: main-top;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.bottom-space {
+  grid-area: bottom-space;
+}
