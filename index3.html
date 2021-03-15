@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login-app-Grid</title>
     <link rel="stylesheet" href="./css/style3.css" />
+    <link
+      rel="stylesheet"
+      href="../YouTube-app/fontawesome-free-5.15.2-web/css/all.css"
+    />
   </head>
   <body>
     <main>
@@ -14,19 +18,66 @@
       <div class="right-space"></div>
       <div class="main-top">
         <div class="main-left">
-          <div class="btn fb-btn"></div>
-          <div class="btn google-btn"></div>
-          <div class="btn tw-btn"></div>
+          <div class="btn fb-btn">
+            <div class="icon-soc" id="fib">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="divider-btn"></div>
+            <div class="btn-text" id="flc">
+              <h1 class="lgn-btn-color">Facebook login</h1>
+            </div>
+          </div>
+          <div class="btn google-btn">
+            <div class="icon-soc"><i class="fab fa-google-plus-g"></i></div>
+            <div class="divider-btn"></div>
+            <div class="btn-text">
+              <h1 class="lgn-btn-color">Google+ login</h1>
+            </div>
+          </div>
+          <div class="btn tw-btn">
+            <div class="icon-soc"><i class="fab fa-twitter"></i></div>
+            <div class="divider-btn"></div>
+            <div class="btn-text">
+              <h1 class="lgn-btn-color">Twitter login</h1>
+            </div>
+          </div>
         </div>
         <div class="main-right">
           <div class="mrd" id="header">
             <div id="header-wrap"><h1>Sign in with</h1></div>
           </div>
-          <div class="mrd" id="user-name"></div>
-          <div class="mrd" id="password"></div>
+          <div class="mrd" id="user-name">
+            <form>
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="👤  Username or email"
+              />
+            </form>
+          </div>
+          <div class="mrd" id="password">
+            <form>
+              <label for="pwd"></label><br />
+              <input
+                type="password"
+                id="pwd"
+                name="pwd"
+                placeholder="🔒  Password"
+              />
+            </form>
+          </div>
           <div class="mrd" id="check-btn">
-            <div id="checkbox"></div>
-            <div id="log-btn"></div>
+            <div id="checkbox">
+              <form>
+                <label for="remember">Remember me</label>
+                <div id="check">
+                  <input type="checkbox" id="remember" name="remember" />
+                </div>
+              </form>
+            </div>
+            <div id="log-btn"><button class="btn">Login</button></div>
           </div>
         </div>
       </div>

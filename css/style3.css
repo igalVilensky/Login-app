@@ -9,9 +9,9 @@
    Globals     
    ================= */
 
-div {
+/* div {
   border: 2px dotted orange;
-}
+} */
 
 h1 {
   font-size: 1.5rem;
@@ -40,7 +40,7 @@ main {
 
 .main-top {
   grid-area: main-top;
-  /*  background-color: orangered; */
+  border: 1px solid gray;
   display: grid;
   grid-template-columns: 46% 54%;
 }
@@ -59,12 +59,56 @@ main {
 /* Buttons */
 
 .btn {
-  background-color: orangered;
+  background-color: rgb(138, 138, 138);
   width: 80%;
   height: 20%;
+  display: flex;
 }
 .fb-btn {
   margin-top: 10%;
+}
+
+.lgn-btn-color {
+  color: white;
+}
+
+.btn-text {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#flc {
+  background-color: #4267b2;
+}
+
+#fib {
+  background-color: #4267b2;
+}
+
+/* Icons */
+
+.icon-soc {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.icon-soc i {
+  font-size: 2em;
+}
+
+/* Divider */
+
+.divider-btn {
+  width: 1%;
+  height: 60%;
+  margin-top: 5%;
+  background-color: rgb(177, 177, 177);
 }
 
 /* =================
