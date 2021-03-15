@@ -45,18 +45,82 @@ main {
   grid-template-columns: 46% 54%;
 }
 
+/* =================
+   Main left content   
+   ================= */
+
 .main-left {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  /* grid-row-gap: 10%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* Buttons */
 
 .btn {
-  margin: 5% 10%;
   background-color: orangered;
+  width: 80%;
+  height: 20%;
 }
+.fb-btn {
+  margin-top: 10%;
+}
+
+/* =================
+   Main right content   
+   ================= */
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.mrd {
+  margin: 2% 9%;
+}
+
+#header-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: salmon;
+  height: 100%;
+}
+
+#header {
+  height: 20%;
+  background-color: saddlebrown;
+}
+
+#user-name {
+  height: 20%;
+  background-color: rgb(223, 201, 186);
+}
+#password {
+  height: 20%;
+  background-color: rgb(90, 83, 187);
+}
+#check-btn {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+  background-color: rgb(63, 199, 223);
+}
+
+#checkbox {
+  height: 100%;
+  width: 60%;
+}
+
+#log-btn {
+  height: 100%;
+  width: 40%;
+}
+
+/* =================
+   Footer  
+   ================= */
 
 .footer {
   grid-area: footer;
@@ -66,6 +130,10 @@ main {
   justify-content: center;
   color: blue;
   border: 1px solid blue;
+}
+
+.footer h1 {
+  margin-right: 10%;
 }
 
 /* =================
